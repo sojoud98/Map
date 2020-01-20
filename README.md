@@ -31,12 +31,12 @@ implementation 'com.google.android.gms:play-services-maps:+'
 <br>
 then add the following to Manifist
 <pre>
-      ( meta-data
+    &lt meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="your .API_KEY" /)
-       ( meta-data
+            android:value="your .API_KEY">
+            < meta-data
             android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" /)
+            android:value="@integer/google_play_services_version"/>
 </pre>
 </li>
         <br>
