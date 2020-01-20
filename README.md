@@ -16,6 +16,8 @@ In buile.gardle (Project)
 </li>
 </ol>
 </li>
+                <br>
+
 <li> In build.garlde (Module) add the following to the dependencies
 <pre>
 implementation 'com.google.android.gms:play-services-maps:17.0.0'
@@ -23,6 +25,8 @@ implementation 'com.google.android.gms:play-services-maps:+'
 
 </pre>
 </li>
+        <br>
+
 <li>Go to google map platform, create a project and get a api_key
 <br>
 then add the following to Manifist
@@ -35,6 +39,8 @@ then add the following to Manifist
             android:value="@integer/google_play_services_version" /)
 </pre>
 </li>
+        <br>
+
 <li>Put map fragment in the xml file  as the following
 
 <pre>
@@ -46,6 +52,8 @@ then add the following to Manifist
             tools:context=".MapsActivity" /)
 </pre>
 <mar>Note: Don't forget to use proper constraits</mark></li>
+        <br>
+
 <li>
 Now you can use the map in your activity
 <pre>
