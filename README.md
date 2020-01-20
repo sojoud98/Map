@@ -44,12 +44,12 @@ then add the following to Manifist
 <li>Put map fragment in the xml file  as the following
 
 <pre>
-(fragment
+&lt fragment
             android:id="@+id/map"
             android:name="com.google.android.gms.maps.SupportMapFragment"
             android:layout_width="300dp"
             android:layout_height="400dp"
-            tools:context=".MapsActivity" /)
+            tools:context=".MapsActivity" /&gt
 </pre>
 <mar>Note: Don't forget to use proper constraits</mark></li>
         <br>
